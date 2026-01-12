@@ -5,7 +5,6 @@
   <title>Cult Pictures – Film Production</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* Color palette: dark background, white text, yellow accent */
     :root {
       --bg-main: #050505;
       --text-main: #f5f5f5;
@@ -39,27 +38,17 @@
       margin-bottom: 40px;
     }
 
-    .logo {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 16px;
-      background: #000000;
-      border-radius: 999px;
-      border: 1px solid #262626;
+    /* New logo image styles */
+    .logo-image {
+      display: inline-block;
+      max-width: 220px;
+      width: 100%;
     }
 
-    .logo-mark {
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      background: var(--accent);
-    }
-
-    .logo-text {
-      letter-spacing: 0.12em;
-      font-size: 12px;
-      text-transform: uppercase;
+    .logo-image img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
 
     h1 {
@@ -203,19 +192,16 @@
 <body>
   <div class="page">
     <header>
-      <!-- Company logo -->
-      <div class="logo">
-        <div class="logo-mark"></div>
-        <div class="logo-text">CULT PICTURES</div>
+      <!-- Replace previous logo with your image -->
+      <div class="logo-image">
+        <img src="logoCP.jpeg" alt="Cult Pictures logo" />
       </div>
 
-      <!-- H1 title -->
       <h1>
         Film production for<br />
         <span class="accent">bold, honest stories</span>
       </h1>
 
-      <!-- Company introduction -->
       <p class="intro">
         Cult Pictures is a film production company focused on documentaries,
         short films and cinematic pieces for brands and institutions. We craft
@@ -225,7 +211,6 @@
     </header>
 
     <main class="sections-grid">
-      <!-- Social / Instagram section -->
       <section class="section">
         <div class="section-title">Follow the work</div>
         <h2>Scenes from the set</h2>
@@ -233,11 +218,9 @@
           On our Instagram profile we share behind-the-scenes moments, work in
           progress, stills from our shoots and first looks at new projects.
         </p>
-        <!-- Replace # with real Instagram URL -->
         <a href="#" class="btn">Visit Instagram profile</a>
       </section>
 
-      <!-- Contact section -->
       <section class="section">
         <div class="section-title">Contact</div>
         <h2>Let’s talk about your film</h2>
@@ -246,12 +229,10 @@
           share your idea or brief. Here you can add your email, phone and any
           other contact details once they are defined.
         </p>
-        <!-- Placeholder for contact link -->
         <a href="#" class="btn btn-secondary">Send a message</a>
       </section>
     </main>
 
-    <!-- Showreel section -->
     <section class="section" style="margin-top: 28px;">
       <div class="section-title">Showreel</div>
       <h2>A glimpse of our images</h2>
@@ -261,7 +242,6 @@
         Pictures.
       </p>
 
-      <!-- Video placeholder (replace with iframe or video tag) -->
       <div class="video-placeholder">
         <div class="video-inner">
           <div class="video-play"></div>
