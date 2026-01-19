@@ -35,10 +35,9 @@
 
     header {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 32px;
     }
 
-    /* New logo image styles */
     .logo-image {
       display: inline-block;
       max-width: 220px;
@@ -55,7 +54,7 @@
       font-size: clamp(32px, 5vw, 44px);
       line-height: 1.15;
       text-transform: uppercase;
-      margin-top: 28px;
+      margin-top: 24px;
     }
 
     h1 span.accent {
@@ -63,7 +62,7 @@
     }
 
     .intro {
-      margin: 24px auto 0;
+      margin: 18px auto 0;
       max-width: 640px;
       color: var(--text-muted);
       font-size: 16px;
@@ -71,39 +70,27 @@
     }
 
     .section {
-      margin-top: 40px;
-      padding: 24px 20px;
+      margin-top: 24px;
+      padding: 18px 18px;
       background: var(--card-bg);
       border-radius: 18px;
       border: 1px solid #242424;
     }
 
     .section-title {
-      font-size: 14px;
+      font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 0.16em;
       color: var(--text-muted);
-      margin-bottom: 14px;
-    }
-
-    .section h2 {
-      font-size: 20px;
       margin-bottom: 10px;
-    }
-
-    .section p {
-      color: var(--text-muted);
-      font-size: 15px;
-      line-height: 1.6;
     }
 
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      margin-top: 16px;
-      padding: 12px 22px;
+      width: 100%;
+      padding: 12px 18px;
       border-radius: 999px;
       border: none;
       background: var(--accent);
@@ -134,126 +121,7 @@
       overflow: hidden;
       background: linear-gradient(135deg, #202020, #050505);
       border: 1px solid #333333;
-      margin-top: 14px;
+      margin-top: 12px;
     }
 
-    .video-inner {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-muted);
-      font-size: 14px;
-    }
-
-    .video-play {
-      width: 68px;
-      height: 68px;
-      border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.25);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-right: 12px;
-    }
-
-    .video-play::before {
-      content: "";
-      display: block;
-      width: 0;
-      height: 0;
-      border-left: 14px solid var(--accent);
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      margin-left: 4px;
-    }
-
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 13px;
-    }
-
-    footer p + p {
-      margin-top: 4px;
-    }
-
-    @media (min-width: 720px) {
-      .sections-grid {
-        display: grid;
-        grid-template-columns: 1.15fr 1fr;
-        gap: 20px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="page">
-    <header>
-      <!-- Replace previous logo with your image -->
-      <div class="logo-image">
-        <img src="logoCP.jpeg" alt="Cult Pictures logo" />
-      </div>
-
-      <h1>
-        Film production for<br />
-        <span class="accent">bold, honest stories</span>
-      </h1>
-
-      <p class="intro">
-        Cult Pictures is a film production company focused on documentaries,
-        short films and cinematic pieces for brands and institutions. We craft
-        visual narratives that highlight people, places and contemporary
-        culture.
-      </p>
-    </header>
-
-    <main class="sections-grid">
-      <section class="section">
-        <div class="section-title">Follow the work</div>
-        <h2>Scenes from the set</h2>
-        <p>
-          On our Instagram profile we share behind-the-scenes moments, work in
-          progress, stills from our shoots and first looks at new projects.
-        </p>
-        <a href="#" class="btn">Visit Instagram profile</a>
-      </section>
-
-      <section class="section">
-        <div class="section-title">Contact</div>
-        <h2>Let’s talk about your film</h2>
-        <p>
-          For productions, co-productions or collaborations, get in touch to
-          share your idea or brief. Here you can add your email, phone and any
-          other contact details once they are defined.
-        </p>
-        <a href="#" class="btn btn-secondary">Send a message</a>
-      </section>
-    </main>
-
-    <section class="section" style="margin-top: 28px;">
-      <div class="section-title">Showreel</div>
-      <h2>A glimpse of our images</h2>
-      <p>
-        Embed your main reel here using Vimeo, YouTube or an MP4 file so
-        visitors can quickly feel the tone, rhythm and visual style of Cult
-        Pictures.
-      </p>
-
-      <div class="video-placeholder">
-        <div class="video-inner">
-          <div class="video-play"></div>
-          <span>Place your showreel here</span>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <p>© 2026 Cult Pictures Film Production</p>
-      <p>All rights reserved.</p>
-    </footer>
-  </div>
-</body>
-</html>
+    .video-inn
